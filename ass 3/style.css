@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+html{
+    width: 1440px;
+    height: 1170px;
+    box-sizing: border-box;
+    background-color: hsla(204, 33%, 97%, 1);
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    width: 1360px;
+    height: 73px;    
+    display: flex;
+    flex-direction: row;  
+    border-bottom: 2px solid #E0E6EA;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 476px;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+svg {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0; 
+    margin-right: auto;
+}
+
+li {
+    margin: auto;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;   
+}
+
+li #btn {
+    width: 91px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.signup {
+    width: 580px;
+    height: 795px;
+    background: hsla(0, 0%, 100%, 1);
+}
+
+.pricing {
+    width: 312px;
+    height: 795px;
+    border-radius: 0px, 6px, 6px, 0px; 
+    background: hsla(204, 84%, 41%, 1);
+    color: white;
+}
+
+.checkout {
+    width: 580px;
+    height: 80px;
+    border-bottom:  1px solid grey;
+}
+
+.checkout h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+
+.yourbasic {
+    margin-left: 50px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 22px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: left;    
+}
+
+.basicinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 580px;
+    height: 221px;
+    margin-left: 50px;
+    border-bottom:  1px solid grey;
+}
+
+#firstname{
+    width: 227px;
+    height: 36px;
+    margin-right: 50px;   
+}
+
+input{
+    margin-top: 7px;
+    background-color: hsla(216, 16%, 94%, 1);
+    border: 0;
+    border-radius: 2px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;    
+}
+
+#lastname{
+    width: 226px;
+    height: 36px;
+}
+
+#email{
+    width: 370px;
+    height: 36px;
+}
+
+.carddetails{
+    margin-left: 50px;
+    width: 580px;
+    height: 154px;
+    border-bottom: 2px solid grey;
+}
+
+#CreditCard{
+    width: 483px;
+    height: 36px;    
+}
+
+input::placeholder {
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#buybtn {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 483px;
+    height: 52px;  
+    text-align: center;  
+    color: hsla(0, 0%, 100%, 1);
+    background: hsla(173, 96%, 28%, 1);
+    border-radius: 5px;
+}
+#underbtn {
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 17px;
+    letter-spacing: -0.009999999776482582px;
+        
+}
+
+#stripe{
+    margin-left: 45%;
+}
+
+#tc{
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px; 
+}
+
+.freelancer{
+    width: 231px;
+    height: 152px;   
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white; 
+}
+
+#italics{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 350;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;   
+    width: 229px;
+    height: 48px;  
+}
+
+#cost {
+    font-weight: 900;
+}
+
+.pricing li {
+    list-style: none;
+    margin: 10px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 24px;
+    letter-spacing: -0.007999998517334461px;
+    text-align: left;
+}
+
+.promises {
+    width: 186px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.talk {
+    width: 229px;
+    height: 196px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
